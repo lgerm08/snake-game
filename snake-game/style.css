@@ -1,0 +1,40 @@
+canvas {
+  align-self: center;
+  border: rgb(13, 77, 37) solid 2px;
+  height: 25%;
+  width: 25%;
+  opacity: 0.7;
+}
+body {
+  background-image: url("img/bck.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  position: fixed;
+}
+h1 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+div {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1rem;
+  align-items: center;
+  font-style: italic;
+  color: rgb(7, 82, 38);
+}
+img {
+  align-self: center;
+  height: 13%;
+  width: 13%;
+}
+footer {
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  height: 2%;
+  font-size: 1rem;
+}
